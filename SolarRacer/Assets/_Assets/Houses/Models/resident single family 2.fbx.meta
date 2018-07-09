@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 2fcd849ff481c1e41b20cfceafa0e409
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: pCube102
+    100002: pCube103
+    100004: pCube104
+    100006: pCube105
+    100008: pCube107
+    100010: pCube108
+    100012: pCube109
+    100014: pCube110
+    100016: pCube111
+    100018: pCube112
+    100020: pCube113
+    100022: pCube82
+    100024: pCube95
+    100026: pCube96
+    100028: pCube97
+    100030: pCube98
+    100032: //RootNode
+    100034: pCube114
+    400000: pCube102
+    400002: pCube103
+    400004: pCube104
+    400006: pCube105
+    400008: pCube107
+    400010: pCube108
+    400012: pCube109
+    400014: pCube110
+    400016: pCube111
+    400018: pCube112
+    400020: pCube113
+    400022: pCube82
+    400024: pCube95
+    400026: pCube96
+    400028: pCube97
+    400030: pCube98
+    400032: //RootNode
+    400034: pCube114
+    2100000: house
+    2100002: everything_else
+    2300000: pCube102
+    2300002: pCube103
+    2300004: pCube104
+    2300006: pCube105
+    2300008: pCube107
+    2300010: pCube108
+    2300012: pCube109
+    2300014: pCube110
+    2300016: pCube111
+    2300018: pCube112
+    2300020: pCube113
+    2300022: pCube82
+    2300024: pCube95
+    2300026: pCube96
+    2300028: pCube97
+    2300030: pCube98
+    2300032: pCube114
+    3300000: pCube102
+    3300002: pCube103
+    3300004: pCube104
+    3300006: pCube105
+    3300008: pCube107
+    3300010: pCube108
+    3300012: pCube109
+    3300014: pCube110
+    3300016: pCube111
+    3300018: pCube112
+    3300020: pCube113
+    3300022: pCube82
+    3300024: pCube95
+    3300026: pCube96
+    3300028: pCube97
+    3300030: pCube98
+    3300032: pCube114
+    4300000: pCube82
+    4300002: pCube95
+    4300004: pCube96
+    4300006: pCube97
+    4300008: pCube98
+    4300010: pCube102
+    4300012: pCube103
+    4300014: pCube104
+    4300016: pCube105
+    4300018: pCube107
+    4300020: pCube108
+    4300022: pCube109
+    4300024: pCube110
+    4300026: pCube111
+    4300028: pCube112
+    4300030: pCube113
+    4300032: pCube114
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

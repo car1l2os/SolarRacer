@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 3db840ddd1e12024ca9eb5006f24f754
+timeCreated: 1529933875
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: B_Rope
+    100002: //RootNode
+    100004: Carbody
+    100006: carseperate:polySurface1
+    100008: carseperate:polySurface10
+    100010: carseperate:polySurface11
+    100012: carseperate:polySurface12
+    100014: carseperate:polySurface13
+    100016: carseperate:polySurface14
+    100018: carseperate:polySurface15
+    100020: carseperate:polySurface16
+    100022: carseperate:polySurface17
+    100024: carseperate:polySurface2
+    100026: carseperate:polySurface3
+    100028: carseperate:polySurface5
+    100030: carseperate:polySurface6
+    100032: carseperate:polySurface7
+    100034: carseperate:polySurface8
+    100036: F_Rope
+    100038: Hood
+    100040: L_B_Tire
+    100042: L_F_Tire
+    100044: R_B_Tire
+    100046: R_F_Tire
+    100048: Solarpanel
+    400000: B_Rope
+    400002: //RootNode
+    400004: Carbody
+    400006: carseperate:polySurface1
+    400008: carseperate:polySurface10
+    400010: carseperate:polySurface11
+    400012: carseperate:polySurface12
+    400014: carseperate:polySurface13
+    400016: carseperate:polySurface14
+    400018: carseperate:polySurface15
+    400020: carseperate:polySurface16
+    400022: carseperate:polySurface17
+    400024: carseperate:polySurface2
+    400026: carseperate:polySurface3
+    400028: carseperate:polySurface5
+    400030: carseperate:polySurface6
+    400032: carseperate:polySurface7
+    400034: carseperate:polySurface8
+    400036: F_Rope
+    400038: Hood
+    400040: L_B_Tire
+    400042: L_F_Tire
+    400044: R_B_Tire
+    400046: R_F_Tire
+    400048: Solarpanel
+    2100000: carseperate_Car
+    2100002: lambert1
+    2300000: carseperate:polySurface1
+    2300002: carseperate:polySurface10
+    2300004: carseperate:polySurface11
+    2300006: carseperate:polySurface12
+    2300008: carseperate:polySurface13
+    2300010: carseperate:polySurface14
+    2300012: carseperate:polySurface15
+    2300014: carseperate:polySurface16
+    2300016: carseperate:polySurface17
+    2300018: carseperate:polySurface2
+    2300020: carseperate:polySurface3
+    2300022: carseperate:polySurface5
+    2300024: carseperate:polySurface6
+    2300026: carseperate:polySurface7
+    2300028: carseperate:polySurface8
+    3300000: carseperate:polySurface1
+    3300002: carseperate:polySurface10
+    3300004: carseperate:polySurface11
+    3300006: carseperate:polySurface12
+    3300008: carseperate:polySurface13
+    3300010: carseperate:polySurface14
+    3300012: carseperate:polySurface15
+    3300014: carseperate:polySurface16
+    3300016: carseperate:polySurface17
+    3300018: carseperate:polySurface2
+    3300020: carseperate:polySurface3
+    3300022: carseperate:polySurface5
+    3300024: carseperate:polySurface6
+    3300026: carseperate:polySurface7
+    3300028: carseperate:polySurface8
+    4300000: carseperate:polySurface12
+    4300002: carseperate:polySurface11
+    4300004: carseperate:polySurface14
+    4300006: carseperate:polySurface10
+    4300008: carseperate:polySurface13
+    4300010: carseperate:polySurface16
+    4300012: carseperate:polySurface17
+    4300014: carseperate:polySurface15
+    4300016: carseperate:polySurface1
+    4300018: carseperate:polySurface3
+    4300020: carseperate:polySurface2
+    4300022: carseperate:polySurface6
+    4300024: carseperate:polySurface8
+    4300026: carseperate:polySurface7
+    4300028: carseperate:polySurface5
+    7400000: Car_Driving
+    7400002: Car_Right
+    7400004: Car_Left
+    7400006: Car_Crash
+    7400008: Car_Jump
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Car_Driving
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Car_Right
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Car_Left
+      takeName: Take 001
+      firstFrame: 480
+      lastFrame: 780
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Car_Crash
+      takeName: Take 001
+      firstFrame: 780
+      lastFrame: 840
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Car_Jump
+      takeName: Take 001
+      firstFrame: 840
+      lastFrame: 1500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
