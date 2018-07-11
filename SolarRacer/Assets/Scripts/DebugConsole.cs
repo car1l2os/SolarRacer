@@ -10,7 +10,6 @@ public class DebugConsole : MonoBehaviour
 {
 
     private List<Command> _commands = new List<Command>();
-    private JSONObject commandsData;
     private CanvasGroup _canvasGroup;
     private bool _visible = false;
 
@@ -20,11 +19,47 @@ public class DebugConsole : MonoBehaviour
     {
         DontDestroyOnLoad(transform.parent.gameObject);
 
-        commandsData = new JSONObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Commands.json"));
+        JSONObject commandsData = new JSONObject(File.ReadAllText(Application.dataPath + "/StreamingAssets/Commands.json"));
         ConstructCommandsDatabase(commandsData);
 
         _canvasGroup = GetComponent<CanvasGroup>();
         Hide();
+    }
+
+    void OnApplicationQuit()
+    {
+        StoreCommands();
+    }
+
+    public void StoreCommands()
+    {
+        string fileName = Application.dataPath + "/StreamingAssets/Commands.json";
+
+        List<string> txtLines = new List<string>();
+        txtLines.Add("[");
+        foreach (Command cmd in _commands)
+        {
+            txtLines.Add("\t" + "{");
+
+            txtLines.Add("\t" + "\t" + '"' + "variable_name" + '"' + ':' + ' ' + '"' +
+                            cmd.LinkedVar.Name + '"' + ',');
+
+            txtLines.Add("\t" + "\t" + '"' + "type" + '"' + ':' + ' ' + '"' +
+                            cmd.Type.Name + '"' + ',');
+
+            string names = "\t" + "\t" + '"' + "variable_name" + '"' + ':' + ' ' + '"';
+            foreach (string name in cmd.Names)
+            {
+                names += name + ',';
+            }
+            names = names.Remove(names.Length - 1);
+            names += '"';
+            txtLines.Add(names);
+
+            txtLines.Add("\t" + "}");
+        }
+        txtLines.Add("]");
+        File.WriteAllLines(fileName, txtLines.ToArray());
     }
 
     private void Update()
@@ -179,6 +214,16 @@ class Command : IEquatable<String>
         return _names.Contains(com);
     }
 
+    public void AddName(string name)
+    {
+        _names.Add(name);
+    }
+
+    public void RemoveName(string name)
+    {
+        _names.Remove(name);
+    }
+
     public FieldInfo LinkedVar
     {
         get
@@ -191,6 +236,14 @@ class Command : IEquatable<String>
         get
         {
             return _type;
+        }
+    }
+
+    public List<string> Names
+    {
+        get
+        {
+            return _names;
         }
     }
 }
