@@ -27,6 +27,8 @@ public class StaticDataContainer : MonoBehaviour
 
     public static int _firstInFinish = 0;
 
+    public static System.Boolean _rayDebug = false;
+    public static System.Boolean _touchDebug = false;
 
     public static void ResetStats()
     {

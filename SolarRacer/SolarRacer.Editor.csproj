@@ -293,6 +293,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\CurveShaderGUI.cs" />
     <Compile Include="Assets\Editor\ShaderOccurenceWindow.cs" />
+    <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
@@ -331,6 +332,7 @@
   <ItemGroup>
     <None Include="Assets\Editor\Curve.shader" />
     <None Include="Assets\Editor\TransparentCurve.shader" />
+    <None Include="Assets\JSON\readme.txt" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />

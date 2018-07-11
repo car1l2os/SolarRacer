@@ -2802,6 +2802,7 @@ GameObject:
   - component: {fileID: 1991104043}
   - component: {fileID: 1991104042}
   - component: {fileID: 1991104041}
+  - component: {fileID: 1991104045}
   - component: {fileID: 1991104044}
   m_Layer: 5
   m_Name: Console
@@ -2828,7 +2829,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 9.090118, y: -5.8645935}
-  m_SizeDelta: {x: 360, y: 60}
+  m_SizeDelta: {x: 640, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1991104041
 MonoBehaviour:
@@ -2948,6 +2949,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56070bed154eaaf4e89261ae4fdf203f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &1991104045
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1991104039}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2062374830
 GameObject:
   m_ObjectHideFlags: 0

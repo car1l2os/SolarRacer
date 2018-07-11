@@ -489,7 +489,7 @@ public class VehicleManager : MonoBehaviour
                 bool flag = Physics.Raycast(ray, out hit, 200f);
                 if (flag)
                 {
-                    if (Debug.isDebugBuild) //develpment code 
+                    if (StaticDataContainer._touchDebug) //develpment code 
                         Instantiate(_touchMarker, new Vector3(hit.point.x, hit.point.y + 0.15f, hit.point.z), Quaternion.Euler(90, 0, 0), _scoreManager.gameObject.transform);
 
                     if (hit.point.z > transform.position.z) //go right
