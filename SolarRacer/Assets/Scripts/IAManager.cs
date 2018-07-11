@@ -25,9 +25,6 @@ public class IAManager : MonoBehaviour
     private int _currentLane = 0;
 
     [SerializeField]
-    private bool _enabled = false;
-
-    [SerializeField]
     GameObject[] _hudToDisableOnIA;
     [SerializeField]
     GameObject[] _hudToEnableOnIA;
@@ -37,15 +34,14 @@ public class IAManager : MonoBehaviour
     {
         _vehicleManager = _playerForIA.GetComponent<VehicleManager>();
         _lanesToCheck = _vehicleManager.Lanes;
-        _enabled = StaticDataContainer._controledByIA;
-        Enabled = _enabled;
+        Enabled = StaticDataContainer._controlledByIA; ;
         GetDifficulty();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_enabled)
+        if (StaticDataContainer._controlledByIA)
         {
             CheckObstacles();
             _timerLastReaction -= Time.deltaTime;
@@ -153,12 +149,11 @@ public class IAManager : MonoBehaviour
     {
         get
         {
-            return _enabled;
+            return StaticDataContainer._controlledByIA; ;
         }
 
         set
         {
-            _enabled = value;
             _vehicleManager.ControlledByAI = value;
             for (int i = 0; i < _hudToDisableOnIA.Length; i++)
             {

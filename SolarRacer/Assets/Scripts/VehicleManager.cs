@@ -277,7 +277,6 @@ public class VehicleManager : MonoBehaviour
 
         if (this.GetComponent<BoxCollider>().bounds.center.x > col.bounds.center.x - col.bounds.size.x * 0.25f) //lets make it easier for the kids 
         {
-
             if (col.gameObject.GetComponentInChildren<BoxCollider>().gameObject.tag == "GroundObstacle" && _canChangeRoad)
             {
                 //launch collision animation

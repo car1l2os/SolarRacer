@@ -59,7 +59,7 @@ public class ScoreInputScript : MonoBehaviour {
         }
         
 
-        if (StaticDataContainer._player2Points > StaticDataContainer._player1Points && StaticDataContainer._controledByIA)
+        if (StaticDataContainer._player2Points > StaticDataContainer._player1Points && StaticDataContainer._controlledByIA)
         {
             _name = "Computer";
             SaveHighscore();

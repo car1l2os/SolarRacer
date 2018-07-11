@@ -92,5 +92,5 @@ Material:
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0.32314324, g: 0.09305898, b: 0.004024717, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _QOffset: {r: 0, g: -7, b: -0.8371582, a: 0}
+    - _QOffset: {r: 0, g: -7, b: -5.8173466, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}

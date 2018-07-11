@@ -40,7 +40,7 @@ public class MenuButtons : MonoBehaviour {
 
     public void OnClickSinglePlayer()
     {
-        StaticDataContainer._controledByIA = true;
+        StaticDataContainer._controlledByIA = true;
         _mainMenuObjects.SetActive(false);
         _modeSelectObjects.SetActive(false);
         _difficultySelectObjects.SetActive(true);
@@ -61,7 +61,7 @@ public class MenuButtons : MonoBehaviour {
 
     public void OnClickMultiPlayer()
     {
-        StaticDataContainer._controledByIA = false;
+        StaticDataContainer._controlledByIA = false;
         SceneManager.LoadScene(_gameSceneName);
         _audioManager.Play("UIButton");
     }

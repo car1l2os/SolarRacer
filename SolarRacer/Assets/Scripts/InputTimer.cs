@@ -29,8 +29,7 @@ public class InputTimer : MonoBehaviour
             Destroy(FindObjectOfType<AudioManager>().gameObject);
             Destroy(gameObject);
         }
-
-        Debug.Log(_timer);
+        //Debug.Log(_timer);
     }
 
     public void ResetTimer()

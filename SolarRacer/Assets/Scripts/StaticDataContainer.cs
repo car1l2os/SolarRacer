@@ -22,7 +22,7 @@ public class StaticDataContainer : MonoBehaviour
     public static int _pointsPerCollectableGroup = 0;
     public static int _pointsPerPickUp = 0;
 
-    public static bool _controledByIA = false;
+    public static System.Boolean _controlledByIA = false;
     public static Difficulty difficulty = Difficulty.Easy;
 
     public static int _firstInFinish = 0;
@@ -43,7 +43,7 @@ public class StaticDataContainer : MonoBehaviour
         _player2SecondsInShadow = 0f;
 
         _firstInFinish = 0;
-        _controledByIA = false;
+        _controlledByIA = false;
         difficulty = Difficulty.Easy;
     }
 }

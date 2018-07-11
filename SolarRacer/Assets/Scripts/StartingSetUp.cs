@@ -22,7 +22,7 @@ public class StartingSetUp : MonoBehaviour
         StaticDataContainer._pointsPerCollectableGroup = 0;
         StaticDataContainer._pointsPerPickUp = 0;
 
-        StaticDataContainer._controledByIA = false;
+        StaticDataContainer._controlledByIA = false;
 
         StaticDataContainer._firstInFinish = 0;
     }
